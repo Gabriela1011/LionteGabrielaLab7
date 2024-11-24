@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LionteGabrielaLab7.MainPage">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+            
+            <Image Source="student.jpg"
+                     HeightRequest="300" 
+                   Aspect="AspectFit" 
+                   HorizontalOptions="Center" />
+
+            <Label Text="Educația și perseverența deschid ușa oportunităților."
+                   FontSize="18" 
+                   TextColor="BlueViolet"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center" />
+            
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
